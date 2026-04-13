@@ -12,7 +12,7 @@ export function GrozaiLogo({ size = 36, variant = "icon" }: GrozaiLogoProps) {
     <div className="flex items-center gap-2.5">
       {/* Black rounded square with cart+leaf icon */}
       <img
-        src="/grozai.png"
+        src={`${import.meta.env.BASE_URL}grozai.png`}
         alt="GrozAI"
         style={{
           width: size,
